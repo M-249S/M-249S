@@ -139,3 +139,93 @@ I enjoy sharing everything I build publicly.
 - 💼 Land High Quality Clients
 
 ---
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=M-249S&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-249S&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🔥 GitHub Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=M-249S&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=M-249S&theme=algolia&column=4&margin-w=15&margin-h=15"/>
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=M-249S&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 🚀 What I'm Building
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+## ResumeIQ
+
+AI Resume Optimizer
+
+- ATS Analysis
+- Resume Rewrite
+- Cover Letter
+- AI Suggestions
+
+</td>
+
+<td width="50%">
+
+## AI Backend
+
+- FastAPI
+- PostgreSQL
+- JWT Auth
+- Docker
+- REST APIs
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 💻 Currently Working On
+
+```text
+█████████████████████████░░░░░░  ResumeIQ SaaS
+
+██████████████████░░░░░░░░░░░░  AI Backend
+
+███████████████░░░░░░░░░░░░░░░  Open Source
+
+████████████░░░░░░░░░░░░░░░░░░  Technical Content
+```
