@@ -1,14 +1,14 @@
 <div align="center">
 
-# 👋 Hi, I'm Mujahid Suliman
+# Hi 👋 I'm Mujahid Suliman
 
-### AI Backend Engineer • FastAPI • Python • GenAI
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&pause=1000&center=true&vCenter=true&width=700&lines=AI+Backend+Engineer;FastAPI+Developer;Python+Developer;Building+Production+AI+Systems;Founder+of+ResumeIQ" />
 
-Building production-ready AI systems and backend APIs.
+<p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-resumeiq.dev-blue?style=for-the-badge)](https://resumeiq.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![X](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com)
+Building AI Products • FastAPI • Python • GenAI • Open Source
+
+</p>
 
 </div>
 
@@ -16,71 +16,38 @@ Building production-ready AI systems and backend APIs.
 
 # 🚀 About Me
 
-- 🎓 M.Sc. in Information Technology
-- 🤖 AI Backend Engineer
-- ⚡ FastAPI & Python Specialist
-- 🧠 Building AI Products
-- 🌍 Open Source Contributor
-- 📚 Learning in Public
+I'm an AI Backend Engineer focused on building production-ready AI applications.
+
+Currently building:
+
+- 🤖 AI ResumeIQ
+- ⚡ FastAPI APIs
+- 🧠 LLM Applications
+- 🔍 RAG Systems
+- ☁️ Cloud Ready Backend
+
+I enjoy sharing everything I build publicly.
+
+> **Build → Learn → Share**
 
 ---
 
-# 🛠 Tech Stack
+# 🌍 Connect With Me
 
-### Backend
+<p align="left">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
 
-### AI
+<a href="https://github.com/M-249S">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
 
-- Gemini
-- OpenAI
-- LangChain
-- RAG
+<a href="https://resumeiq.dev">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome"/>
+</a>
 
-### Database
-
-- PostgreSQL
-- SQLite
-
----
-
-# 🚀 Featured Project
-
-## ResumeIQ
-
-AI Resume Optimizer that analyzes resumes, gives ATS score, detects missing skills and generates personalized improvements.
-
-**Tech**
-
-- FastAPI
-- Python
-- Gemini
-- PostgreSQL
+</p>
 
 ---
-
-# 📈 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=M-249S&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=M-249S&layout=compact&theme=tokyonight)
-
----
-
-# 🔥 Current Focus
-
-- Building ResumeIQ
-- AI Products
-- Backend Architecture
-- FastAPI Best Practices
-- Open Source
-
----
-
-<div align="center">
-
-### Let's Build Something Amazing 🚀
-
-</div>
