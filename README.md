@@ -51,3 +51,91 @@ I enjoy sharing everything I build publicly.
 </p>
 
 ---
+# ⚡ Tech Stack
+
+## 👨‍💻 Languages
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,js,html,css"/>
+
+</p>
+
+---
+
+## 🚀 Backend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs"/>
+
+</p>
+
+---
+
+## 🗄 Database
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite"/>
+
+</p>
+
+---
+
+## ☁ Cloud & DevOps
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,nginx"/>
+
+</p>
+
+---
+
+## 🤖 AI Stack
+
+- Google Gemini
+- OpenAI
+- LangChain
+- RAG
+- Prompt Engineering
+- AI Resume Optimization
+
+---
+
+# 💼 Current Project
+
+# ResumeIQ
+
+> AI Resume Optimizer powered by LLMs.
+
+### Features
+
+✅ ATS Resume Analysis
+
+✅ Resume Rewriting
+
+✅ Cover Letter Generator
+
+✅ AI Suggestions
+
+✅ Resume Matching
+
+✅ Authentication
+
+✅ Dashboard
+
+✅ History Tracking
+
+---
+
+# 🎯 Current Goals
+
+- 🚀 Launch ResumeIQ SaaS
+- 🤖 Build AI Products
+- 📚 Share Everything Publicly
+- 🌍 Help Developers
+- 💼 Land High Quality Clients
+
+---
