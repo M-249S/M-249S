@@ -1,12 +1,14 @@
 <div align="center">
 
-# Hi 👋 I'm Mujahid Suliman
+# 👋 Hi, I'm Mujahid Suliman
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&pause=1000&center=true&vCenter=true&width=700&lines=AI+Backend+Engineer;FastAPI+Developer;Python+Developer;Building+Production+AI+Systems;Founder+of+ResumeIQ" />
+### Python Backend Engineer • Building AI Products
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=800&center=true&vCenter=true&width=850&lines=Python+Backend+Engineer;Building+Production+AI+Products;FastAPI+%7C+Python+%7C+PostgreSQL;Founder+of+ResumeIQ;Building+in+Public+🚀" />
 
 <p>
 
-Building AI Products • FastAPI • Python • GenAI • Open Source
+Building scalable backend systems with Python, FastAPI and Generative AI.
 
 </p>
 
@@ -16,8 +18,11 @@ Building AI Products • FastAPI • Python • GenAI • Open Source
 
 # 🚀 About Me
 
-I'm an AI Backend Engineer focused on building production-ready AI applications.
+I'm a Python Backend Engineer passionate about building production-ready AI products.
 
+I specialize in designing scalable backend architectures, REST APIs, authentication systems, and AI-powered applications using FastAPI and modern LLM technologies.
+
+Currently building **ResumeIQ**, an AI-powered resume optimization platform.
 Currently building:
 
 - 🤖 AI ResumeIQ
@@ -31,6 +36,17 @@ I enjoy sharing everything I build publicly.
 > **Build → Learn → Share**
 
 ---
+# 🎯 Current Mission
+
+My goal is to build software that helps people get better jobs using AI.
+
+I'm currently focused on:
+
+- 🚀 ResumeIQ SaaS
+- 🤖 Generative AI
+- ⚡ FastAPI
+- 🧠 Backend Architecture
+- 📈 Building in Public
 
 # 🌍 Connect With Me
 
@@ -95,20 +111,26 @@ I enjoy sharing everything I build publicly.
 
 ## 🤖 AI Stack
 
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,docker,git,github,linux"/>
+
+</p>
+### AI
+
 - Google Gemini
 - OpenAI
-- LangChain
-- RAG
 - Prompt Engineering
-- AI Resume Optimization
-
+- LLM Applications
+- Retrieval-Augmented Generation (RAG)
 ---
 
-# 💼 Current Project
+# 🚀 Featured Project
 
-# ResumeIQ
+## ResumeIQ
 
-> AI Resume Optimizer powered by LLMs.
+AI-powered Resume Optimization Platform
+
 
 ### Features
 
@@ -237,7 +259,7 @@ AI Resume Optimizer
 
 | Service | Status |
 |----------|--------|
-| AI Backend Development | ✅ Available |
+| Backend Development | ✅ Available |
 | FastAPI REST APIs | ✅ Available |
 | AI Integrations | ✅ Available |
 | SaaS MVP Development | ✅ Available |
@@ -283,7 +305,19 @@ AI Resume Optimizer
 
 <div align="center">
 
-## 🚀 Build → Learn → Share
+<div align="center">
+
+## 🚀 Python Backend Engineer • Building AI Products
+
+Building software that solves real problems.
+
+⭐ Always learning.
+
+⭐ Always shipping.
+
+⭐ Always improving.
+
+</div>
 
 *"Building AI Products in Public."*
 
