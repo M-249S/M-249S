@@ -229,3 +229,62 @@ AI Resume Optimizer
 
 ████████████░░░░░░░░░░░░░░░░░░  Technical Content
 ```
+---
+
+# 💼 Available For
+
+<div align="center">
+
+| Service | Status |
+|----------|--------|
+| AI Backend Development | ✅ Available |
+| FastAPI REST APIs | ✅ Available |
+| AI Integrations | ✅ Available |
+| SaaS MVP Development | ✅ Available |
+| Python Automation | ✅ Available |
+
+</div>
+
+---
+
+# 🌍 Let's Connect
+
+<p align="center">
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://x.com/YOURX">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+
+<a href="https://github.com/M-249S">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://resumeiq.dev">
+<img src="https://img.shields.io/badge/Portfolio-ResumeIQ-0A66C2?style=for-the-badge"/>
+</a>
+
+</p>
+
+---
+
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=M-249S&label=Profile%20Views&color=0A66C2&style=for-the-badge"/>
+
+</p>
+
+---
+
+<div align="center">
+
+## 🚀 Build → Learn → Share
+
+*"Building AI Products in Public."*
+
+</div>
