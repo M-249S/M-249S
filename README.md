@@ -83,8 +83,8 @@ AI-powered resume optimization platform.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=M-249S&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-249S&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=M-249S&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-249S&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
 
 <img src="https://streak-stats.demolab.com?user=M-249S&theme=tokyonight&hide_border=true"/>
 
@@ -102,16 +102,17 @@ AI-powered resume optimization platform.
 
 </div>
 
-> ⚠️ This animation needs a one-time setup — see **`snake.yml`** (provided separately). Once the GitHub Action runs the first time, the snake animates automatically on every contribution update.
+> Updates automatically via the `snake.yml` GitHub Action on every contribution.
 
 ---
 
 ## 🌍 Connect With Me
 
 <p align="center">
-<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://x.com/YOURX"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/mujahid-suliman-6a9875425/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://x.com/MujahidCode"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 <a href="https://github.com/M-249S"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.reddit.com/user/Remote_Singer_6287/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/></a>
 <a href="https://resumeiq.dev"><img src="https://img.shields.io/badge/Portfolio-ResumeIQ-0A66C2?style=for-the-badge"/></a>
 </p>
 
