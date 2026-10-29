@@ -2,11 +2,11 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:0F172A&height=200&section=header&text=Mujahid%20Suliman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-### Python Backend Engineer • DevSecOps • Building AI Products
+### Junior DevSecOps Engineer • Python Backend • Cloud
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=800&center=true&vCenter=true&width=850&lines=Python+Backend+Engineer;CI%2FCD+%26+Security+Scanning+Pipelines;FastAPI+%7C+Docker+%7C+PostgreSQL;Creator+of+ResumeIQ;Building+in+Public+%F0%9F%9A%80" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=800&center=true&vCenter=true&width=850&lines=Junior+DevSecOps+Engineer;CI%2FCD+%26+Security+Scanning+Pipelines;Docker+%7C+Terraform+%7C+AWS+%7C+GitHub+Actions;Python+%7C+FastAPI+%7C+PostgreSQL;Building+in+Public+%F0%9F%9A%80" />
 
-Building secure, containerized backend systems with Python, FastAPI, and CI/CD.
+Building pipelines where security is a required gate, not an afterthought.
 
 </div>
 
@@ -14,9 +14,9 @@ Building secure, containerized backend systems with Python, FastAPI, and CI/CD.
 
 ## 🚀 About Me
 
-I'm a Python Backend Engineer with an MSc in Information Technology, focused on building AI-powered applications that are tested, containerized, deployed, and secured by an automated pipeline from the first commit. I work on REST API design, authentication, PostgreSQL, and integrating LLMs into real products.
+I'm a Junior DevSecOps Engineer with an MSc in Information Technology and a Python backend background. I build pipelines that treat security as a required gate: every change is linted, tested, and scanned (SAST, secret scanning, dependency and container vulnerability scanning) before an image is ever published.
 
-Currently building **[ResumeIQ](https://resumeiq-beta-ten.vercel.app)**, an AI resume analyzer: ATS scoring, resume rewriting, tailored cover letters, and per-user history. It is deployed end to end (React on Vercel, FastAPI and PostgreSQL on Render) with a CI/CD pipeline that scans every change for vulnerabilities and secrets.
+My projects form one chain: a hardened Flask API in a non-root, read-only Docker image shipped through a 6-stage GitHub Actions pipeline to GHCR; Terraform that provisions AWS infrastructure and runs that same image; and **[ResumeIQ](https://resumeiq-beta-ten.vercel.app)**, a full-stack AI application (FastAPI, PostgreSQL, React) deployed on Render and Vercel with its own CI/CD, Dependabot updates, and Trivy-verified dependencies.
 
 > Learn → Build → Share
 
@@ -25,11 +25,12 @@ Currently building **[ResumeIQ](https://resumeiq-beta-ten.vercel.app)**, an AI r
 ## 🎯 What I'm Focused On
 
 - 🔐 **DevSecOps**: CI/CD pipelines with SAST, secret scanning, and dependency and container scanning
-- ⚡ Backend systems with FastAPI and PostgreSQL
-- 🐳 Docker, Render and Vercel deployments
-- 🧠 LLM integration: prompt design, retries and fallbacks, graceful failure
+- ☁️ **Infrastructure as Code**: Terraform on AWS, with IaC scanning in CI
+- 🐳 Docker hardening: non-root users, read-only filesystems, runtime-only secrets
+- ⚡ Backend systems with Python, FastAPI and PostgreSQL
+- 📈 Observability basics: Prometheus metrics and health checks
 - 📚 Building in public and sharing what I learn
-- 💼 Open to backend, DevSecOps and AI-integration roles and freelance work
+- 💼 Open to Junior DevSecOps, DevOps, Cloud, and Python backend roles
 
 ---
 
@@ -48,41 +49,49 @@ Currently building **[ResumeIQ](https://resumeiq-beta-ten.vercel.app)**, an AI r
 <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite" />
 
 **Cloud & DevOps**
-<img src="https://skillicons.dev/icons?i=docker,githubactions,vercel,linux,git,github,nginx" />
+<img src="https://skillicons.dev/icons?i=docker,githubactions,terraform,aws,vercel,linux,git,github,nginx" />
 
 **Security tooling**
-Bandit (SAST) · Gitleaks (secret scanning) · Trivy (dependency and image scanning) · Dependabot
+Bandit (SAST) · Gitleaks (secret scanning) · Trivy (dependency, image and IaC scanning) · Dependabot
 
 **AI / LLM**
 OpenRouter · OpenAI-compatible APIs · Prompt Engineering · LLM Applications
 
 ---
 
-## 🏆 Featured Project: ResumeIQ
+## 🏆 Projects
 
-AI-powered ATS resume analyzer and optimizer.
-**[Live demo](https://resumeiq-beta-ten.vercel.app)** · **[Source code](https://github.com/M-249S/resumeiq)**
+Three projects that connect into one chain: code → CI/CD with security gates → container image → infrastructure as code → running service.
 
-| Area | What it does |
-|---|---|
-| ✅ ATS Resume Analysis | Scores resumes against a job description, with keyword match and suggestions |
-| ✅ Resume Rewriting | AI-rewritten resume, downloadable as PDF |
-| ✅ Cover Letter Generator | Tailored letters, editable and downloadable as `.docx` |
-| ✅ Accounts & History | JWT authentication, PostgreSQL, saved analysis history |
-| ✅ CI/CD & Security | 6-stage GitHub Actions pipeline: lint, tests, Bandit, Gitleaks, Trivy, Docker build and image scan |
-| ✅ Deployment | Dockerized backend on Render (Blueprint), frontend on Vercel, automated dependency updates |
+### 1. [DevSecOps CI/CD Pipeline](https://github.com/M-249S/devops-cicd-project)
 
-**Stack:** FastAPI · PostgreSQL · Alembic · JWT · React · TypeScript · Docker · GitHub Actions
+A Flask API in a hardened Docker image, shipped through a 6-stage GitHub Actions pipeline that refuses to publish anything that fails a security check.
 
-### More DevSecOps projects
+- Pipeline: flake8, pytest, Bandit (SAST), Gitleaks (secrets), Trivy (dependencies and image), then publish to GHCR only if everything passes
+- Container runs as non-root with a read-only filesystem; secrets are injected at runtime only
+- Prometheus metrics (`/metrics`) following the RED method
 
-These three projects connect into one chain: code → CI/CD with security gates → container image → infrastructure as code → running service.
+**Stack:** Python · Flask · Gunicorn · Docker · GitHub Actions · Trivy · Bandit · Gitleaks · Prometheus
 
-| Project | What it shows |
-|---|---|
-| **[devops-cicd-project](https://github.com/M-249S/devops-cicd-project)** | Flask API in a hardened Docker image (non-root, read-only filesystem), shipped through a 6-stage GitHub Actions pipeline: flake8, pytest, Bandit, Gitleaks, Trivy, and image publish to GHCR only if every security check passes. Prometheus metrics at `/metrics`. |
-| **[terraform-ec2-demo](https://github.com/M-249S/terraform-ec2-demo)** | Terraform provisions an AWS EC2 instance and security group, and boots it running the image from the project above. CI runs `terraform fmt`, `validate` and a Trivy IaC scan, with no AWS credentials needed. |
-| **[ResumeIQ](https://github.com/M-249S/resumeiq)** | Full-stack AI app with PostgreSQL, JWT auth and its own CI/CD pipeline, deployed on Render and Vercel. |
+### 2. [Terraform AWS EC2 Demo](https://github.com/M-249S/terraform-ec2-demo)
+
+Terraform provisions an AWS EC2 instance and security group, and boots it running the image published by project 1.
+
+- AMI looked up dynamically, boot script installs Docker and runs the container with the same hardening
+- CI runs `terraform fmt`, `validate` and a Trivy IaC scan, with no AWS credentials needed
+
+**Stack:** Terraform · AWS EC2 · Docker · GitHub Actions · Trivy
+
+### 3. [ResumeIQ](https://github.com/M-249S/resumeiq): AI Resume Analyzer
+
+Full-stack app that scores resumes against a job description, rewrites them, and generates tailored cover letters, with saved history per user.
+**[Live demo](https://resumeiq-beta-ten.vercel.app)**
+
+- JWT authentication, PostgreSQL with Alembic migrations, rate-limited AI endpoints with retries and fallback models
+- Own 6-stage CI/CD pipeline, Dependabot grouped updates, and real CVEs found by Trivy and fixed
+- Dockerized backend on Render (Blueprint), frontend on Vercel
+
+**Stack:** FastAPI · PostgreSQL · React · TypeScript · Docker · GitHub Actions
 
 ---
 
@@ -90,10 +99,9 @@ These three projects connect into one chain: code → CI/CD with security gates 
 
 | Service | Status |
 |---|---|
-| Backend Development | ✅ Available |
-| FastAPI REST APIs | ✅ Available |
 | CI/CD & Security Scanning Pipelines | ✅ Available |
-| AI Integration | ✅ Available |
+| Docker & Infrastructure as Code (Terraform) | ✅ Available |
+| Backend Development (FastAPI) | ✅ Available |
 | Python Automation | ✅ Available |
 
 ---
@@ -143,7 +151,7 @@ These three projects connect into one chain: code → CI/CD with security gates 
 
 <div align="center">
 
-**Building AI products in public.**
+**Building secure pipelines in public.**
 Learn → Build → Share
 
 </div>
