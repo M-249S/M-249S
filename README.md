@@ -16,7 +16,7 @@ Building pipelines where security is a required gate, not an afterthought.
 
 I'm a Junior DevSecOps Engineer with an MSc in Information Technology and a Python backend background. I build pipelines that treat security as a required gate: every change is linted, tested, and scanned (SAST, secret scanning, dependency and container vulnerability scanning) before an image is ever published.
 
-My projects form one chain: a hardened Flask API in a non-root, read-only Docker image shipped through a 6-stage GitHub Actions pipeline to GHCR; Terraform that provisions AWS infrastructure and runs that same image; and **[ResumeIQ](https://resumeiq-beta-ten.vercel.app)**, a full-stack AI application (FastAPI, PostgreSQL, React) deployed on Render and Vercel with its own CI/CD, Dependabot updates, and Trivy-verified dependencies.
+My projects form one chain: a hardened Flask API in a non-root, read-only Docker image shipped through a 6-stage GitHub Actions pipeline to GHCR; Terraform that provisions AWS infrastructure and runs that same image; and **[ResumeIQ](https://resumeiq-amber.vercel.app)**, a full-stack AI application (FastAPI, PostgreSQL, React) deployed on Render and Vercel with its own CI/CD, Dependabot updates, and Trivy-verified dependencies.
 
 > Learn → Build → Share
 
@@ -85,11 +85,12 @@ Terraform provisions an AWS EC2 instance and security group, and boots it runnin
 ### 3. [ResumeIQ](https://github.com/M-249S/resumeiq): AI Resume Analyzer
 
 Full-stack app that scores resumes against a job description, rewrites them, and generates tailored cover letters, with saved history per user.
-**[Live demo](https://resumeiq-beta-ten.vercel.app)**
+**[Live demo](https://resumeiq-amber.vercel.app)**
 
-- JWT authentication, PostgreSQL with Alembic migrations, rate-limited AI endpoints with retries and fallback models
-- Own 6-stage CI/CD pipeline, Dependabot grouped updates, and real CVEs found by Trivy and fixed
-- Dockerized backend on Render (Blueprint), frontend on Vercel
+- JWT and Google sign-in, PostgreSQL (Neon) with Alembic migrations, rate-limited AI endpoints with retries and fallback models
+- Guest demo with abuse protection (per-IP limits, size caps, daily budget) and self-serve account and data deletion
+- Backend and frontend CI/CD with SAST, secret, dependency and image scanning, SHA-pinned actions, Dependabot grouped updates and branch protection on `main`
+- Dockerized backend on Render (Blueprint), frontend on Vercel, database on Neon
 
 **Stack:** FastAPI · PostgreSQL · React · TypeScript · Docker · GitHub Actions
 
@@ -136,11 +137,11 @@ Full-stack app that scores resumes against a job description, rewrites them, and
 ## 🌍 Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/mujahid-suliman-6a9875425/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/mujahid-s-hamid-adam"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://x.com/MujahidCode"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 <a href="https://github.com/M-249S"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://www.reddit.com/user/Remote_Singer_6287/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/></a>
-<a href="https://resumeiq-beta-ten.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-ResumeIQ-0A66C2?style=for-the-badge"/></a>
+<a href="https://resumeiq-amber.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-ResumeIQ-0A66C2?style=for-the-badge"/></a>
 </p>
 
 <p align="center">
